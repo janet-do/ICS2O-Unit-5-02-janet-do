@@ -5,6 +5,9 @@
 /**
  * Check servie worker.
  */
+
+"use strict"
+
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit-5-02-janet-do/sw.js", {
     scope: "/ICS2O-Unit-5-02-janet-do/",
